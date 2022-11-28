@@ -1,0 +1,241 @@
+
+
+
+body{
+    /*font-size: 100%;*/
+   background-image: url(Imagens/background.png);
+   background-color: gray;
+   background-attachment: fixed;
+    /* background-image: #b92b27;  /* fallback for old browsers */
+   /* background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: 115x;*/
+    color: white;
+}
+
+#cabeçalho{
+    display: flex;
+    width: auto;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around; 
+    padding: 20px ; 
+    background-color: transparent;
+    margin-top: auto;    
+}
+
+/* imagem logo*/
+#cabeçalho{
+    display: flex;
+    height: 60px;
+    color: white;
+    font-style: oxygen;
+    margin: auto;
+   /* border-style: solid;
+    border-color: white;*/
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-cabeçalho{
+    display: flex;
+    flex-direction: initial;
+    gap:25px;
+    color: white;
+    font-size: auto;
+    justify-content: auto;
+   /* border-style: solid;
+    border-color: white;*/
+    height: 25px;
+    text-decoration: none;
+
+    
+}
+ .item-menu{
+    border: 2px solid whitesmoke ;
+    border-radius: 5px;
+    height: 23px;
+    width: 180px;
+    text-align: center;
+    margin: auto;
+ }
+ .item-menu:hover{
+    transform: scale(1.034);
+    background-color: lightblue;
+
+
+ }  
+
+/*.img-conteudo-principal{
+    margin: 24px;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    width: 200px;
+}*/
+
+.conteudo-principal{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding:10px ;
+    /*text-shadow: 0 0 3px black, 0 0 5px white;*/
+    /*font-size: 65px;*/
+}
+
+
+
+#conteudo-escrito{
+    color: rgba(255,255,255,0.6);
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    margin: auto;
+    font-size: 65px;
+    float: left;
+
+}
+
+#conteudo-sec
+{
+align-content: left;
+color: white;
+display: flex;
+justify-items: space-between;
+
+
+}
+.paragrafo-conteudo{
+    margin-top: 5px;
+    font-size: 25px;
+    color: white;
+
+
+}
+
+hr.new1 {
+  border-top: 1px solid white;
+}
+
+
+.logos{
+    display:inline-block;
+    justify-content: center;
+    max-height: 50px;
+    max-width: 500px;
+    gap: 10px;
+
+ /*--cartoes--*/  
+}
+
+/*caixa dos cartoes*/
+.container{
+    width: 850px;
+    margin: 50px auto;
+
+}
+.cards{
+    
+display: flex;
+justify-content: center;
+
+}
+
+
+.card{
+    background-color: Silver;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px ;
+    width: 200px;
+    box-shadow: 0 0 25px grey;
+    text-align: center;
+    padding: 24px;
+    margin: 8px;
+    transition: 0.4s;
+    
+}
+
+.card img{
+    width: 90px;
+    margin: 40px;
+    height: 80px;
+
+}
+
+.card h3{
+    color: blue;
+}
+
+
+
+.card:hover{
+    transform: scale(1.034);
+  
+
+}
+
+/* form*/
+.form {
+    width: 40%;
+    margin: auto;
+    background-color: #f2f2f2;
+    opacity: 0.95;
+    padding: 10px;
+    border-radius: 6px;
+    color: black;
+    box-align: center;
+
+}
+
+form.space{
+
+}
+/*conteudo do form*/
+input[type=text],input[type=password],input[type=email],input[type=tel],select,textarea
+
+{
+    width:100% ;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    resize: none;
+
+}
+/*botão de enviar*/
+input[type=submit]
+{
+    width: 100%;
+    color:white;
+    background-color:green;
+    padding: 15px 20px;
+    border-radius: 4px;
+    border: 2px solid #cccccc;
+    margin:8px 0px ;
+    cursor: pointer;
+    font-family: "verdana";
+}
+input[type=submit]:hover{
+    background-color: greenyellow;
+    transform: scale(1.033);
+}
+
+
+
+/*https://formspree.io/*/
+ 
+.footer{
+  text-align: center;
+    margin:0 px;
+    padding: 2px;
+    
+}
